@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" /> 
-    <title>Hotel Konark</title>
+    <title>Mahakali Chinese Center</title>
     <link
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;600&display=swap"
         rel="stylesheet">
@@ -1119,12 +1119,12 @@
         <!-- Cafe Header - Original Style -->
         <div class="cafe-header">
             <img src="logo1.png" alt="Logo" style="width:400px; height:auto;">
-            <div class="cafe-name">Konark </div>
-            <div class="cafe-subtitle">Restaurants</div>
+            <div class="cafe-name">MAHAKALI</div>
+            <div class="cafe-subtitle">CHINESE CENTER</div>
             <div class="location-info">
                 <div class="location-text"> </div>
                 <div class="address"></div>
-                <div class="mobile-numbers">Mo no. +91 73858 21030</div>
+                <div class="mobile-numbers">Mo no. +91 80872 70732</div>
             </div>
             <div class="veg-nonveg">
                 <div class="veg">
@@ -1155,17 +1155,16 @@
                     <div class="tabs-scroll">
 
 <button class="tab active" data-cat="all">All</button>
-<button class="tab" data-cat="BREAKFAST">Breakfast & Snacks</button>
-<button class="tab" data-cat="THALI_SPECIAL">Konark Thali Special</button>
-<button class="tab" data-cat="VEG_STARTER">Veg Starters & Soup</button>
-<button class="tab" data-cat="NON_VEG_STARTER">Non-Veg Starters</button>
-<button class="tab" data-cat="VEG_MAIN_COURSE">Main Course (Veg)</button>
-<button class="tab" data-cat="NON_VEG_MAIN_COURSE">Main Course (Non-Veg)</button>
-<button class="tab" data-cat="RICE_NOODLES">Rice, Biryani & Chinese</button>
-<button class="tab" data-cat="DAL_SPECIAL">Dal</button>
-<button class="tab" data-cat="ROTI_BREAD">Roti & Bhakari</button>
-<button class="tab" data-cat="SWEETS_DESSERT">Sweets & Desserts</button>
-<button class="tab" data-cat="REFRESHING_DRINKS">Mocktails & Drinks</button>
+
+<button class="tab" data-cat="CHINESE_SOUP">Veg Soups</button>
+<button class="tab" data-cat="CHINESE_NOODLES">Veg Noodles</button>
+<button class="tab" data-cat="CHINESE_RICE">Veg Rice</button>
+<button class="tab" data-cat="CHINESE_STARTER">Veg Starters</button>
+
+<button class="tab" data-cat="NON_VEG_SOUP">Chicken Soups</button>
+<button class="tab" data-cat="NON_VEG_NOODLES">Chicken Noodles</button>
+<button class="tab" data-cat="NON_VEG_RICE">Chicken Rice</button>
+<button class="tab" data-cat="NON_VEG_STARTER">Chicken Starters</button>
 
                     </div>
                 </div>
@@ -1311,142 +1310,128 @@
     <script>
         // Menu Data
         const data =
-          [
-  { "id": 1, "cat": "BREAKFAST", "name": "Ghavne Chutney", "price": "60 RS", "desc": "Traditional Konkani rice flour crepes with chutney", "tags": ["Veg"], "img": "img/ghavne_chutney.jpg" },
-  { "id": 2, "cat": "BREAKFAST", "name": "Puri Bhaji", "price": "70 RS", "desc": "Fried bread served with potato curry", "tags": ["Veg"], "img": "img/puri_bhaji.jpg" },
-  { "id": 3, "cat": "BREAKFAST", "name": "Mix Puri Bhaji", "price": "80 RS", "desc": "Puri bhaji served with mixed vegetable curry", "tags": ["Veg"], "img": "img/mix_puri_bhaji.jpg" },
-  { "id": 4, "cat": "BREAKFAST", "name": "Misal Pav", "price": "60 RS", "desc": "Spicy sprouted bean curry with bread", "tags": ["Veg"], "img": "img/misal_pav.jpg" },
-  { "id": 5, "cat": "BREAKFAST", "name": "Misal Puri", "price": "70 RS", "desc": "Spicy misal served with fried puris", "tags": ["Veg"], "img": "img/misal_puri.jpg" },
-  { "id": 6, "cat": "BREAKFAST", "name": "Usal Pav", "price": "50 RS", "desc": "Sprouts curry served with bread", "tags": ["Veg"], "img": "img/usal_pav.jpg" },
-  { "id": 7, "cat": "BREAKFAST", "name": "Usal Puri", "price": "60 RS", "desc": "Sprouts curry served with fried puris", "tags": ["Veg"], "img": "img/usal_puri.jpg" },
-  { "id": 8, "cat": "BREAKFAST", "name": "Kanda Poha", "price": "50 RS", "desc": "Flattened rice cooked with onions and peanuts", "tags": ["Veg"], "img": "img/kanda_poha.jpg" },
-  { "id": 9, "cat": "BREAKFAST", "name": "Upma", "price": "50 RS", "desc": "Savory semolina breakfast dish", "tags": ["Veg"], "img": "img/upma.jpg" },
-  { "id": 10, "cat": "BREAKFAST", "name": "Sheera", "price": "50 RS", "desc": "Sweet semolina pudding", "tags": ["Veg"], "img": "img/sheera.jpg" },
-  { "id": 11, "cat": "BREAKFAST", "name": "Omlet Pav", "price": "60 RS", "desc": "Egg omelette served with pav", "tags": ["Non-Veg"], "img": "img/omlet_pav.jpg" },
-  { "id": 12, "cat": "BREAKFAST", "name": "Burji Pav", "price": "70 RS", "desc": "Spiced scrambled eggs with pav", "tags": ["Non-Veg"], "img": "img/burji_pav.jpg" },
-  { "id": 13, "cat": "BREAKFAST", "name": "Glass of Milk", "price": "40 RS", "desc": "Hot fresh milk", "tags": ["Veg"], "img": "img/glass_of_milk.jpg" },
-  { "id": 14, "cat": "BREAKFAST", "name": "Tea", "price": "20 RS", "desc": "Hot brewed tea", "tags": ["Veg"], "img": "img/tea_breakfast.jpg" },
-  { "id": 15, "cat": "BREAKFAST", "name": "Coffee", "price": "25 RS", "desc": "Hot coffee", "tags": ["Veg"], "img": "img/coffee_breakfast.jpg" },
-  { "id": 16, "cat": "BREAKFAST", "name": "Cold Coffee", "price": "50 RS", "desc": "Chilled refreshing coffee", "tags": ["Veg"], "img": "img/cold_coffee_breakfast.jpg" },
-  { "id": 17, "cat": "BREAKFAST", "name": "Finger Chips", "price": "90 RS", "desc": "Crispy fried potato chips (French Fries)", "tags": ["Veg"], "img": "img/finger_chips_breakfast.jpg" },
- { "id": 115, "cat": "BREAKFAST", "name": "Aloo Paratha", "price": "90 RS", "desc": "Whole wheat flatbread stuffed with spiced potatoes", "tags": ["Veg"], "img": "img/aloo_paratha.jpg" },
-  { "id": 116, "cat": "BREAKFAST", "name": "Paneer Paratha", "price": "100 RS", "desc": "Whole wheat flatbread stuffed with spiced paneer", "tags": ["Veg"], "img": "img/paneer_paratha.jpg" },
-  { "id": 117, "cat": "BREAKFAST", "name": "Thalipith", "price": "95 RS", "desc": "Traditional Maharashtrian multigrain spiced flatbread", "tags": ["Veg"], "img": "img/thalipith.jpg" },
+      [
+  { "id": 1, "cat": "CHINESE_SOUP", "name": "Manchow Soup (Half)", "price": "40 RS", "desc": "Spicy soup with crispy noodles (Half)", "tags": ["Veg"], "img": "img/manchow_soup.jpeg" },
+  { "id": 2, "cat": "CHINESE_SOUP", "name": "Manchow Soup (Full)", "price": "60 RS", "desc": "Spicy soup with crispy noodles (Full)", "tags": ["Veg"], "img": "img/manchow_soup.jpeg" },
+  { "id": 3, "cat": "CHINESE_SOUP", "name": "Hot & Sour Soup (Half)", "price": "40 RS", "desc": "Spicy and tangy vegetable soup (Half)", "tags": ["Veg"], "img": "img/hot_sour_soup.jpeg" },
+  { "id": 4, "cat": "CHINESE_SOUP", "name": "Hot & Sour Soup (Full)", "price": "60 RS", "desc": "Spicy and tangy vegetable soup (Full)", "tags": ["Veg"], "img": "img/hot_sour_soup.jpeg" },
+  { "id": 5, "cat": "CHINESE_SOUP", "name": "Noodles Soup (Half)", "price": "40 RS", "desc": "Soup with soft noodles and veggies (Half)", "tags": ["Veg"], "img": "img/noodles_soup.jpeg" },
+  { "id": 6, "cat": "CHINESE_SOUP", "name": "Noodles Soup (Full)", "price": "60 RS", "desc": "Soup with soft noodles and veggies (Full)", "tags": ["Veg"], "img": "img/noodles_soup.jpeg" },
+  { "id": 7, "cat": "CHINESE_SOUP", "name": "Chinese Soup (Half)", "price": "40 RS", "desc": "Classic mixed vegetable soup (Half)", "tags": ["Veg"], "img": "img/chinese_soup.jpeg" },
+  { "id": 8, "cat": "CHINESE_SOUP", "name": "Chinese Soup (Full)", "price": "60 RS", "desc": "Classic mixed vegetable soup (Full)", "tags": ["Veg"], "img": "img/chinese_soup.jpeg" },
+  { "id": 9, "cat": "CHINESE_NOODLES", "name": "Veg Hakka Noodles (Half)", "price": "70 RS", "desc": "Stir-fried noodles with fresh vegetables (Half)", "tags": ["Veg"], "img": "img/veg_hakka_noodles.jpeg" },
+  { "id": 10, "cat": "CHINESE_NOODLES", "name": "Veg Hakka Noodles (Full)", "price": "120 RS", "desc": "Stir-fried noodles with fresh vegetables (Full)", "tags": ["Veg"], "img": "img/veg_hakka_noodles.jpeg" },
+  { "id": 11, "cat": "CHINESE_NOODLES", "name": "Veg Triple Noodles (Half)", "price": "100 RS", "desc": "Noodles served with crispy noodles and gravy (Half)", "tags": ["Veg"], "img": "img/veg_triple_noodles.jpeg" },
+  { "id": 12, "cat": "CHINESE_NOODLES", "name": "Veg Triple Noodles (Full)", "price": "160 RS", "desc": "Noodles served with crispy noodles and gravy (Full)", "tags": ["Veg"], "img": "img/veg_triple_noodles.jpeg" },
+  { "id": 13, "cat": "CHINESE_NOODLES", "name": "Manchurian Noodles (Half)", "price": "100 RS", "desc": "Noodles tossed with manchurian balls (Half)", "tags": ["Veg"], "img": "img/manchurian_noodles.jpeg" },
+  { "id": 14, "cat": "CHINESE_NOODLES", "name": "Manchurian Noodles (Full)", "price": "160 RS", "desc": "Noodles tossed with manchurian balls (Full)", "tags": ["Veg"], "img": "img/manchurian_noodles.jpeg" },
+  { "id": 15, "cat": "CHINESE_NOODLES", "name": "Schezwan Noodles (Half)", "price": "80 RS", "desc": "Spicy noodles cooked in schezwan sauce (Half)", "tags": ["Veg"], "img": "img/schezwan_noodles.jpeg" },
+  { "id": 16, "cat": "CHINESE_NOODLES", "name": "Schezwan Noodles (Full)", "price": "130 RS", "desc": "Spicy noodles cooked in schezwan sauce (Full)", "tags": ["Veg"], "img": "img/schezwan_noodles.jpeg" },
+  { "id": 17, "cat": "CHINESE_NOODLES", "name": "Garlic Noodles (Half)", "price": "80 RS", "desc": "Noodles with burnt garlic flavor (Half)", "tags": ["Veg"], "img": "img/garlic_noodles.jpeg" },
+  { "id": 18, "cat": "CHINESE_NOODLES", "name": "Garlic Noodles (Full)", "price": "130 RS", "desc": "Noodles with burnt garlic flavor (Full)", "tags": ["Veg"], "img": "img/garlic_noodles.jpeg" },
+  { "id": 19, "cat": "CHINESE_NOODLES", "name": "Ginger Noodles (Half)", "price": "80 RS", "desc": "Noodles with strong ginger flavor (Half)", "tags": ["Veg"], "img": "img/ginger_noodles.jpeg" },
+  { "id": 20, "cat": "CHINESE_NOODLES", "name": "Ginger Noodles (Full)", "price": "130 RS", "desc": "Noodles with strong ginger flavor (Full)", "tags": ["Veg"], "img": "img/ginger_noodles.jpeg" },
+  { "id": 21, "cat": "CHINESE_NOODLES", "name": "Hong Kong Noodles (Half)", "price": "80 RS", "desc": "Sweet and spicy style noodles (Half)", "tags": ["Veg"], "img": "img/hongkong_noodles.jpeg" },
+  { "id": 22, "cat": "CHINESE_NOODLES", "name": "Hong Kong Noodles (Full)", "price": "130 RS", "desc": "Sweet and spicy style noodles (Full)", "tags": ["Veg"], "img": "img/hongkong_noodles.jpeg" },
+  { "id": 23, "cat": "CHINESE_NOODLES", "name": "Singapore Noodles (Half)", "price": "80 RS", "desc": "Mildly spiced yellow noodles (Half)", "tags": ["Veg"], "img": "img/singapore_noodles.jpeg" },
+  { "id": 24, "cat": "CHINESE_NOODLES", "name": "Singapore Noodles (Full)", "price": "130 RS", "desc": "Mildly spiced yellow noodles (Full)", "tags": ["Veg"], "img": "img/singapore_noodles.jpeg" },
+  { "id": 25, "cat": "CHINESE_NOODLES", "name": "Soyabean Noodles (Half)", "price": "80 RS", "desc": "Noodles with soya chunks (Half)", "tags": ["Veg"], "img": "img/soyabean_noodles.jpeg" },
+  { "id": 26, "cat": "CHINESE_NOODLES", "name": "Soyabean Noodles (Full)", "price": "140 RS", "desc": "Noodles with soya chunks (Full)", "tags": ["Veg"], "img": "img/soyabean_noodles.jpeg" },
+  { "id": 27, "cat": "CHINESE_RICE", "name": "Veg Fried Rice (Half)", "price": "70 RS", "desc": "Classic fried rice with vegetables (Half)", "tags": ["Veg"], "img": "img/veg_fried_rice.jpeg" },
+  { "id": 28, "cat": "CHINESE_RICE", "name": "Veg Fried Rice (Full)", "price": "120 RS", "desc": "Classic fried rice with vegetables (Full)", "tags": ["Veg"], "img": "img/veg_fried_rice.jpeg" },
+  { "id": 29, "cat": "CHINESE_RICE", "name": "Schezwan Rice (Half)", "price": "80 RS", "desc": "Spicy fried rice in schezwan sauce (Half)", "tags": ["Veg"], "img": "img/schezwan_rice.jpeg" },
+  { "id": 30, "cat": "CHINESE_RICE", "name": "Schezwan Rice (Full)", "price": "130 RS", "desc": "Spicy fried rice in schezwan sauce (Full)", "tags": ["Veg"], "img": "img/schezwan_rice.jpeg" },
+  { "id": 31, "cat": "CHINESE_RICE", "name": "Mixed Fried Rice (Half)", "price": "80 RS", "desc": "Fried rice with assorted veggies (Half)", "tags": ["Veg"], "img": "img/mixed_fried_rice.jpeg" },
+  { "id": 32, "cat": "CHINESE_RICE", "name": "Mixed Fried Rice (Full)", "price": "130 RS", "desc": "Fried rice with assorted veggies (Full)", "tags": ["Veg"], "img": "img/mixed_fried_rice.jpeg" },
+  { "id": 33, "cat": "CHINESE_RICE", "name": "Garlic Rice (Half)", "price": "80 RS", "desc": "Fried rice with burnt garlic aroma (Half)", "tags": ["Veg"], "img": "img/garlic_rice.jpeg" },
+  { "id": 34, "cat": "CHINESE_RICE", "name": "Garlic Rice (Full)", "price": "130 RS", "desc": "Fried rice with burnt garlic aroma (Full)", "tags": ["Veg"], "img": "img/garlic_rice.jpeg" },
+  { "id": 35, "cat": "CHINESE_RICE", "name": "Hong Kong Rice (Half)", "price": "80 RS", "desc": "Spicy flavor packed rice (Half)", "tags": ["Veg"], "img": "img/hongkong_rice.jpeg" },
+  { "id": 36, "cat": "CHINESE_RICE", "name": "Hong Kong Rice (Full)", "price": "130 RS", "desc": "Spicy flavor packed rice (Full)", "tags": ["Veg"], "img": "img/hongkong_rice.jpeg" },
+  { "id": 37, "cat": "CHINESE_RICE", "name": "Noodle Rice (Half)", "price": "80 RS", "desc": "Combination of fried rice and noodles (Half)", "tags": ["Veg"], "img": "img/noodle_rice.jpeg" },
+  { "id": 38, "cat": "CHINESE_RICE", "name": "Noodle Rice (Full)", "price": "130 RS", "desc": "Combination of fried rice and noodles (Full)", "tags": ["Veg"], "img": "img/noodle_rice.jpeg" },
+  { "id": 39, "cat": "CHINESE_RICE", "name": "Manchurian Rice (Half)", "price": "100 RS", "desc": "Fried rice served with manchurian gravy (Half)", "tags": ["Veg"], "img": "img/manchurian_rice.jpeg" },
+  { "id": 40, "cat": "CHINESE_RICE", "name": "Manchurian Rice (Full)", "price": "170 RS", "desc": "Fried rice served with manchurian gravy (Full)", "tags": ["Veg"], "img": "img/manchurian_rice.jpeg" },
+  { "id": 41, "cat": "CHINESE_RICE", "name": "Triple Schezwan Rice (Half)", "price": "100 RS", "desc": "Rice served with noodles and spicy gravy (Half)", "tags": ["Veg"], "img": "img/triple_schezwan_rice.jpeg" },
+  { "id": 42, "cat": "CHINESE_RICE", "name": "Triple Schezwan Rice (Full)", "price": "160 RS", "desc": "Rice served with noodles and spicy gravy (Full)", "tags": ["Veg"], "img": "img/triple_schezwan_rice.jpeg" },
+  { "id": 43, "cat": "CHINESE_RICE", "name": "Soyabean Rice (Half)", "price": "80 RS", "desc": "Fried rice with soya chunks (Half)", "tags": ["Veg"], "img": "img/soyabean_rice.jpeg" },
+  { "id": 44, "cat": "CHINESE_RICE", "name": "Soyabean Rice (Full)", "price": "140 RS", "desc": "Fried rice with soya chunks (Full)", "tags": ["Veg"], "img": "img/soyabean_rice.jpeg" },
+  { "id": 45, "cat": "CHINESE_STARTER", "name": "Veg Chilly Gravy (Half)", "price": "80 RS", "desc": "Veg balls in spicy chilli gravy (Half)", "tags": ["Veg"], "img": "img/veg_chilly_gravy.jpeg" },
+  { "id": 46, "cat": "CHINESE_STARTER", "name": "Veg Chilly Gravy (Full)", "price": "120 RS", "desc": "Veg balls in spicy chilli gravy (Full)", "tags": ["Veg"], "img": "img/veg_chilly_gravy.jpeg" },
+  { "id": 47, "cat": "CHINESE_STARTER", "name": "Veg Chilly Dry (Half)", "price": "70 RS", "desc": "Crispy dry veg chilli starter (Half)", "tags": ["Veg"], "img": "img/veg_chilly_dry.jpeg" },
+  { "id": 48, "cat": "CHINESE_STARTER", "name": "Veg Chilly Dry (Full)", "price": "110 RS", "desc": "Crispy dry veg chilli starter (Full)", "tags": ["Veg"], "img": "img/veg_chilly_dry.jpeg" },
+  { "id": 49, "cat": "CHINESE_STARTER", "name": "Veg Manchurian (Half)", "price": "70 RS", "desc": "Dry vegetable manchurian balls (Half)", "tags": ["Veg"], "img": "img/veg_manchurian.jpeg" },
+  { "id": 50, "cat": "CHINESE_STARTER", "name": "Veg Manchurian (Full)", "price": "110 RS", "desc": "Dry vegetable manchurian balls (Full)", "tags": ["Veg"], "img": "img/veg_manchurian.jpeg" },
+  { "id": 51, "cat": "CHINESE_STARTER", "name": "Veg Schezwan (Half)", "price": "70 RS", "desc": "Vegetables tossed in schezwan sauce (Half)", "tags": ["Veg"], "img": "img/veg_schezwan.jpeg" },
+  { "id": 52, "cat": "CHINESE_STARTER", "name": "Veg Schezwan (Full)", "price": "110 RS", "desc": "Vegetables tossed in schezwan sauce (Full)", "tags": ["Veg"], "img": "img/veg_schezwan.jpeg" },
+  { "id": 53, "cat": "CHINESE_STARTER", "name": "Veg Garlic (Half)", "price": "70 RS", "desc": "Vegetables in garlic sauce (Half)", "tags": ["Veg"], "img": "img/veg_garlic.jpeg" },
+  { "id": 54, "cat": "CHINESE_STARTER", "name": "Veg Garlic (Full)", "price": "110 RS", "desc": "Vegetables in garlic sauce (Full)", "tags": ["Veg"], "img": "img/veg_garlic.jpeg" },
+  { "id": 55, "cat": "CHINESE_STARTER", "name": "Veg Singapore (Half)", "price": "70 RS", "desc": "Singapore style vegetable starter (Half)", "tags": ["Veg"], "img": "img/veg_singapore.jpeg" },
+  { "id": 56, "cat": "CHINESE_STARTER", "name": "Veg Singapore (Full)", "price": "110 RS", "desc": "Singapore style vegetable starter (Full)", "tags": ["Veg"], "img": "img/veg_singapore.jpeg" },
+  { "id": 57, "cat": "CHINESE_STARTER", "name": "Veg Ginger (Half)", "price": "70 RS", "desc": "Vegetables tossed in ginger sauce (Half)", "tags": ["Veg"], "img": "img/veg_ginger.jpeg" },
+  { "id": 58, "cat": "CHINESE_STARTER", "name": "Veg Ginger (Full)", "price": "110 RS", "desc": "Vegetables tossed in ginger sauce (Full)", "tags": ["Veg"], "img": "img/veg_ginger.jpeg" },
+  { "id": 59, "cat": "CHINESE_STARTER", "name": "Soyabean Chilly (Half)", "price": "70 RS", "desc": "Soya chunks tossed in chilli sauce (Half)", "tags": ["Veg"], "img": "img/soyabean_chilly.jpeg" },
+  { "id": 60, "cat": "CHINESE_STARTER", "name": "Soyabean Chilly (Full)", "price": "110 RS", "desc": "Soya chunks tossed in chilli sauce (Full)", "tags": ["Veg"], "img": "img/soyabean_chilly.jpeg" },
+  { "id": 61, "cat": "CHINESE_STARTER", "name": "Schezwan Soyabean Chilly (Half)", "price": "80 RS", "desc": "Spicy soya chilli starter (Half)", "tags": ["Veg"], "img": "img/schezwan_soyabean_chilly.jpeg" },
+  { "id": 62, "cat": "CHINESE_STARTER", "name": "Schezwan Soyabean Chilly (Full)", "price": "120 RS", "desc": "Spicy soya chilli starter (Full)", "tags": ["Veg"], "img": "img/schezwan_soyabean_chilly.jpeg" },
 
-  { "id": 18, "cat": "VEG_STARTER", "name": "Veg Manchow Soup", "price": "90 RS", "desc": "Spicy vegetable soup with fried noodles", "tags": ["Veg"], "img": "img/veg_manchow_soup.jpg" },
-  { "id": 19, "cat": "VEG_STARTER", "name": "Veg Manchurian", "price": "200 RS", "desc": "Fried vegetable balls in chinese sauce", "tags": ["Veg"], "img": "img/veg_manchurian.jpg" },
-  { "id": 20, "cat": "VEG_STARTER", "name": "Veg Crispy", "price": "200 RS", "desc": "Crispy fried vegetables tossed in sauce", "tags": ["Veg"], "img": "img/veg_crispy.jpg" },
-  { "id": 21, "cat": "VEG_STARTER", "name": "Veg Lollypop", "price": "200 RS", "desc": "Vegetable dumplings shaped like lollipops", "tags": ["Veg"], "img": "img/veg_lollypop.jpg" },
-  { "id": 22, "cat": "VEG_STARTER", "name": "Gobi Manchurian", "price": "190 RS", "desc": "Cauliflower florets in manchurian sauce", "tags": ["Veg"], "img": "img/gobi_manchurian.jpg" },
-  { "id": 23, "cat": "VEG_STARTER", "name": "Paneer Chilly", "price": "220 RS", "desc": "Spicy paneer cubes with bell peppers", "tags": ["Veg"], "img": "img/paneer_chilly.jpg" },
-  { "id": 24, "cat": "VEG_STARTER", "name": "Paneer Manchurian", "price": "220 RS", "desc": "Paneer cubes in chinese manchurian gravy", "tags": ["Veg"], "img": "img/paneer_manchurian.jpg" },
-  { "id": 25, "cat": "VEG_STARTER", "name": "Green Salad", "price": "60 RS", "desc": "Fresh sliced vegetable salad", "tags": ["Veg"], "img": "img/green_salad.jpg" },
-  { "id": 26, "cat": "VEG_STARTER", "name": "Papad Fry/Roasted", "price": "20 RS", "desc": "Fried or roasted crispy papad", "tags": ["Veg"], "img": "img/papad.jpg" },
-  { "id": 27, "cat": "VEG_STARTER", "name": "Masala Papad", "price": "50 RS", "desc": "Papad topped with spicy onion and tomato mix", "tags": ["Veg"], "img": "img/masala_papad.jpg" },
-  { "id": 28, "cat": "NON_VEG_STARTER", "name": "Chicken Manchow Soup", "price": "95 RS", "desc": "Spicy chicken soup with noodles", "tags": ["Non-Veg"], "img": "img/chicken_manchow_soup.jpg" },
-  { "id": 29, "cat": "NON_VEG_STARTER", "name": "Chicken Manchurian", "price": "230 RS", "desc": "Chicken balls in chinese sauce", "tags": ["Non-Veg"], "img": "img/chicken_manchurian.jpg" },
-  { "id": 30, "cat": "NON_VEG_STARTER", "name": "Chicken Crispy", "price": "230 RS", "desc": "Crispy fried spicy chicken strips", "tags": ["Non-Veg"], "img": "img/chicken_crispy.jpg" },
-  { "id": 31, "cat": "NON_VEG_STARTER", "name": "Chicken Chilly", "price": "230 RS", "desc": "Spicy chicken tossed with chillies and soy sauce", "tags": ["Non-Veg"], "img": "img/chicken_chilly.jpg" },
-  { "id": 32, "cat": "NON_VEG_STARTER", "name": "Chicken Lollypop", "price": "230 RS", "desc": "Fried chicken winglets", "tags": ["Non-Veg"], "img": "img/chicken_lollypop.jpg" },
-  { "id": 33, "cat": "NON_VEG_STARTER", "name": "Prawns Chilly", "price": "250 RS", "desc": "Spicy stir-fried prawns", "tags": ["Non-Veg"], "img": "img/prawns_chilly.jpg" },
-  { "id": 34, "cat": "NON_VEG_STARTER", "name": "Kolim Masala Papad", "price": "50 RS", "desc": "Papad topped with spicy tiny shrimp mix", "tags": ["Non-Veg"], "img": "img/kolim_masala_papad.jpg" },
-  { "id": 35, "cat": "NON_VEG_STARTER", "name": "Bangda Fry", "price": "Check Price", "desc": "Fried Mackerel fish", "tags": ["Non-Veg"], "img": "img/bangda_fry.jpg" },
-  { "id": 36, "cat": "NON_VEG_STARTER", "name": "Surmai Fry", "price": "Check Price", "desc": "Fried Kingfish slice", "tags": ["Non-Veg"], "img": "img/surmai_fry.jpg" },
-  { "id": 37, "cat": "NON_VEG_STARTER", "name": "Pomfret Fry", "price": "Check Price", "desc": "Fried Pomfret fish", "tags": ["Non-Veg"], "img": "img/pomfret_fry.jpg" },
-
-
-  { "id": 38, "cat": "THALI_SPECIAL", "name": "Veg Thali", "price": "100 RS", "desc": "Includes Dal, Rice, Bhaji, Chapati, Usal, Achar, Papad, Solkadhi", "tags": ["Veg"], "img": "img/veg_thali.jpg" },
-  { "id": 39, "cat": "THALI_SPECIAL", "name": "Konark Veg Thali", "price": "150 RS", "desc": "Special thali with Sweet, Pakoda, Dahi, Dal, Rice, Bhaji, Chapati, Usal, Papad, Solkadhi", "tags": ["Veg"], "img": "img/konark_veg_thali.jpg" },
-  { "id": 40, "cat": "THALI_SPECIAL", "name": "Chicken Thali", "price": "230 RS", "desc": "Chicken plate, Rice, Chapati, Rassa (Curry), Solkadhi, Salad", "tags": ["Non-Veg"], "img": "img/chicken_thali.jpg" },
-  { "id": 41, "cat": "THALI_SPECIAL", "name": "Kombdi Wade Thali", "price": "250 RS", "desc": "Special chicken thali served with Wade (fried bread), Rice, Rassa, Solkadhi, Salad", "tags": ["Non-Veg"], "img": "img/kombdi_wade_thali.jpg" },
-  { "id": 42, "cat": "THALI_SPECIAL", "name": "Egg Thali", "price": "190 RS", "desc": "Egg Masala, Rassa, Rice, Chapati, Solkadhi, Salad", "tags": ["Non-Veg"], "img": "img/egg_thali.jpg" },
-  { "id": 43, "cat": "THALI_SPECIAL", "name": "Pomfret Thali", "price": "Check Price", "desc": "Pomfret Fry, Fish Curry, Chapati, Rice, Salad, Solkadhi", "tags": ["Non-Veg"], "img": "img/pomfret_thali.jpg" },
-  { "id": 44, "cat": "THALI_SPECIAL", "name": "Surmai Thali", "price": "Check Price", "desc": "Surmai Fry, Fish Curry, Chapati, Rice, Salad, Solkadhi", "tags": ["Non-Veg"], "img": "img/surmai_thali.jpg" },
-  { "id": 45, "cat": "THALI_SPECIAL", "name": "Prawns Thali", "price": "Check Price", "desc": "Prawns Fry, Prawns Masala, Fish Curry, Chapati, Rice, Salad, Solkadhi", "tags": ["Non-Veg"], "img": "img/prawns_thali.jpg" },
-  { "id": 46, "cat": "THALI_SPECIAL", "name": "Bangda Thali", "price": "Check Price", "desc": "Bangda Fry, Fish Curry, Rice, Chapati, Salad, Solkadhi", "tags": ["Non-Veg"], "img": "img/bangda_thali.jpg" },
-
-  { "id": 47, "cat": "REFRESHING_DRINKS", "name": "Mint Mojito", "price": "85 RS", "desc": "Refreshing mint and lime mocktail", "tags": ["Veg"], "img": "img/mint_mojito.jpg" },
-  { "id": 48, "cat": "REFRESHING_DRINKS", "name": "Bubblegum Mojito", "price": "95 RS", "desc": "Sweet bubblegum flavored refreshing drink", "tags": ["Veg"], "img": "img/bubblegum_mojito.jpg" },
-  { "id": 49, "cat": "REFRESHING_DRINKS", "name": "Green Mint Mojito", "price": "85 RS", "desc": "Cool green mint flavored mocktail", "tags": ["Veg"], "img": "img/green_mint_mojito.jpg" },
-  { "id": 50, "cat": "REFRESHING_DRINKS", "name": "Classic Mojito", "price": "90 RS", "desc": "Traditional lime and mint virgin mojito", "tags": ["Veg"], "img": "img/classic_mojito.jpg" },
-  { "id": 51, "cat": "REFRESHING_DRINKS", "name": "Solkadhi", "price": "40 RS", "desc": "Digestive kokum and coconut milk drink", "tags": ["Veg"], "img": "img/solkadhi.jpg" },
-  { "id": 52, "cat": "REFRESHING_DRINKS", "name": "Fresh Lime Soda", "price": "30 RS", "desc": "Sparkling lemon soda (Sweet/Salted)", "tags": ["Veg"], "img": "img/fresh_lime_soda.jpg" },
-  { "id": 53, "cat": "REFRESHING_DRINKS", "name": "Masala Chas", "price": "35 RS", "desc": "Spiced buttermilk", "tags": ["Veg"], "img": "img/masala_chas.jpg" },
-  { "id": 54, "cat": "REFRESHING_DRINKS", "name": "Kokam Sarabat", "price": "40 RS", "desc": "Sweet and tangy kokum juice", "tags": ["Veg"], "img": "img/kokam_sarabat.jpg" },
-  { "id": 55, "cat": "REFRESHING_DRINKS", "name": "Coldrink", "price": "Check Price", "desc": "Chilled soft drinks", "tags": ["Veg"], "img": "img/coldrink.jpg" },
-  
-  { "id": 56, "cat": "DAL_SPECIAL", "name": "Dal Fry", "price": "140 RS", "desc": "Yellow lentils tempered with mild spices", "tags": ["Veg"], "img": "img/dal_fry.jpg" },
-  { "id": 57, "cat": "DAL_SPECIAL", "name": "Dal Tadka", "price": "150 RS", "desc": "Yellow lentils with spicy garlic and chili tempering", "tags": ["Veg"], "img": "img/dal_tadka.jpg" },
-  { "id": 58, "cat": "DAL_SPECIAL", "name": "Butter Dal Fry", "price": "150 RS", "desc": "Dal fry topped with a generous amount of butter", "tags": ["Veg"], "img": "img/butter_dal_fry.jpg" },
-  { "id": 59, "cat": "ROTI_BREAD", "name": "Chapati", "price": "14 RS", "desc": "Soft whole wheat flatbread", "tags": ["Veg"], "img": "img/chapati.jpg" },
-  { "id": 60, "cat": "ROTI_BREAD", "name": "Bhakari", "price": "22 RS", "desc": "Traditional flatbread made from jowar, bajra, or rice flour", "tags": ["Veg"], "img": "img/bhakari.jpg" },
-  { "id": 61, "cat": "ROTI_BREAD", "name": "Paratha", "price": "30 RS", "desc": "Layered and roasted wheat flatbread", "tags": ["Veg"], "img": "img/paratha.jpg" },
-  { "id": 62, "cat": "ROTI_BREAD", "name": "Puri Plate", "price": "40 RS", "desc": "Plate of deep-fried puffed bread", "tags": ["Veg"], "img": "img/puri_plate.jpg" },
-  { "id": 63, "cat": "ROTI_BREAD", "name": "Vada Plate", "price": "50 RS", "desc": "Plate of fried potato dumplings (Batata Vada)", "tags": ["Veg"], "img": "img/vada_plate.jpg" },
-  { "id": 64, "cat": "SWEETS_DESSERT", "name": "Aamrakhand", "price": "Check Price", "desc": "Sweet strained yogurt with mango pulp", "tags": ["Veg"], "img": "img/aamrakhand.jpg" },
-  { "id": 65, "cat": "SWEETS_DESSERT", "name": "Gajar Halwa", "price": "Check Price", "desc": "Traditional sweet carrot pudding", "tags": ["Veg"], "img": "img/gajar_halwa.jpg" },
-  { "id": 66, "cat": "SWEETS_DESSERT", "name": "Basundi Puri", "price": "Check Price", "desc": "Sweet thickened milk served with puris", "tags": ["Veg"], "img": "img/basundi_puri.jpg" },
-  { "id": 67, "cat": "SWEETS_DESSERT", "name": "Gulabjamun", "price": "Check Price", "desc": "Fried dough balls soaked in sugar syrup", "tags": ["Veg"], "img": "img/gulabjamun.jpg" },
-  { "id": 121, "cat": "SWEETS_DESSERT", "name": "Amras Puri", "price": "150 RS", "desc": "Fresh mango pulp served with puris (Seasonal)", "tags": ["Veg"], "img": "img/amras_puri.jpg" },
-  { "id": 122, "cat": "SWEETS_DESSERT", "name": "Aamras", "price": "100 RS", "desc": "Bowl of fresh mango pulp (Seasonal)", "tags": ["Veg"], "img": "img/aamras.jpg" },
-
- 
-  { "id": 68, "cat": "NON_VEG_MAIN_COURSE", "name": "Chi. Handi", "price": "240 RS", "desc": "Chicken cooked in a traditional clay pot style gravy", "tags": ["Non-Veg"], "img": "img/chicken_handi.jpg" },
-  { "id": 69, "cat": "NON_VEG_MAIN_COURSE", "name": "Chi. Kadhai", "price": "240 RS", "desc": "Spicy chicken cooked with bell peppers in a wok", "tags": ["Non-Veg"], "img": "img/chicken_kadhai.jpg" },
-  { "id": 70, "cat": "NON_VEG_MAIN_COURSE", "name": "Chi. Masala", "price": "230 RS", "desc": "Classic chicken curry with aromatic spices", "tags": ["Non-Veg"], "img": "img/chicken_masala.jpg" },
-  { "id": 71, "cat": "NON_VEG_MAIN_COURSE", "name": "Kaju Chi. Masala", "price": "250 RS", "desc": "Rich chicken curry cooked with cashew nuts", "tags": ["Non-Veg"], "img": "img/kaju_chicken_masala.jpg" },
-  { "id": 72, "cat": "NON_VEG_MAIN_COURSE", "name": "Chi. Malvani Masala", "price": "220 RS", "desc": "Spicy coconut-based Malvani style chicken curry", "tags": ["Non-Veg"], "img": "img/chicken_malvani.jpg" },
-  { "id": 73, "cat": "NON_VEG_MAIN_COURSE", "name": "Chi. Kolhapuri", "price": "240 RS", "desc": "Fiery spicy Kolhapuri style chicken curry", "tags": ["Non-Veg"], "img": "img/chicken_kolhapuri.jpg" },
-  { "id": 74, "cat": "NON_VEG_MAIN_COURSE", "name": "Egg Masala", "price": "200 RS", "desc": "Boiled eggs cooked in thick spicy gravy", "tags": ["Non-Veg"], "img": "img/egg_masala.jpg" },
-  { "id": 75, "cat": "NON_VEG_MAIN_COURSE", "name": "Crab Masala", "price": "Check Price", "desc": "Fresh crab cooked in spicy masala gravy", "tags": ["Non-Veg"], "img": "img/crab_masala.jpg" },
-  { "id": 76, "cat": "NON_VEG_MAIN_COURSE", "name": "Prawns Masala", "price": "Check Price", "desc": "Juicy prawns cooked in rich spices", "tags": ["Non-Veg"], "img": "img/prawns_masala.jpg" },
-  { "id": 77, "cat": "NON_VEG_MAIN_COURSE", "name": "Kalwa Masala", "price": "Check Price", "desc": "Oysters (Kalwa) cooked in traditional masala", "tags": ["Non-Veg"], "img": "img/kalwa_masala.jpg" },
-  { "id": 78, "cat": "NON_VEG_MAIN_COURSE", "name": "Tisre Masala", "price": "Check Price", "desc": "Clams (Tisre) cooked in spicy curry", "tags": ["Non-Veg"], "img": "img/tisre_masala.jpg" },
-  { "id": 118, "cat": "NON_VEG_MAIN_COURSE", "name": "Tisare Masala", "price": "250 RS", "desc": "Clams cooked in traditional spicy masala", "tags": ["Non-Veg"], "img": "img/tisare_masala.jpg" },
-  // { "id": 119, "cat": "NON_VEG_MAIN_COURSE", "name": "Crab Masala", "price": "250 RS", "desc": "Fresh crab cooked in rich spicy gravy", "tags": ["Non-Veg"], "img": "img/crab_masala.jpg" },
-
-  { "id": 79, "cat": "VEG_MAIN_COURSE", "name": "Paneer Kadhai", "price": "230 RS", "desc": "Paneer cooked with bell peppers in a wok", "tags": ["Veg"], "img": "img/paneer_kadhai.jpg" },
-  { "id": 80, "cat": "VEG_MAIN_COURSE", "name": "Paneer Handi", "price": "230 RS", "desc": "Paneer cooked in a traditional clay pot style gravy", "tags": ["Veg"], "img": "img/paneer_handi.jpg" },
-  { "id": 81, "cat": "VEG_MAIN_COURSE", "name": "Paneer Burji", "price": "225 RS", "desc": "Scrambled paneer cooked with spices", "tags": ["Veg"], "img": "img/paneer_burji.jpg" },
-  { "id": 82, "cat": "VEG_MAIN_COURSE", "name": "Paneer Butter Masala", "price": "220 RS", "desc": "Paneer cubes in rich buttery tomato gravy", "tags": ["Veg"], "img": "img/paneer_butter_masala.jpg" },
-  { "id": 83, "cat": "VEG_MAIN_COURSE", "name": "Paneer Tikka Masala", "price": "230 RS", "desc": "Grilled paneer tikka in spicy gravy", "tags": ["Veg"], "img": "img/paneer_tikka_masala.jpg" },
-  { "id": 84, "cat": "VEG_MAIN_COURSE", "name": "Paneer Makhanwala", "price": "225 RS", "desc": "Paneer in smooth creamy butter gravy", "tags": ["Veg"], "img": "img/paneer_makhanwala.jpg" },
-  { "id": 85, "cat": "VEG_MAIN_COURSE", "name": "Paneer Kaju Masala", "price": "240 RS", "desc": "Rich curry with paneer and cashew nuts", "tags": ["Veg"], "img": "img/paneer_kaju_masala.jpg" },
-  { "id": 86, "cat": "VEG_MAIN_COURSE", "name": "Kaju Masala", "price": "230 RS", "desc": "Cashew nuts cooked in spicy masala gravy", "tags": ["Veg"], "img": "img/kaju_masala.jpg" },
-  { "id": 87, "cat": "VEG_MAIN_COURSE", "name": "Kaju Kurma", "price": "230 RS", "desc": "Cashew nuts in a white mild creamy gravy", "tags": ["Veg"], "img": "img/kaju_kurma.jpg" },
-  { "id": 88, "cat": "VEG_MAIN_COURSE", "name": "Green Peas Masala", "price": "200 RS", "desc": "Fresh green peas cooked in spiced gravy", "tags": ["Veg"], "img": "img/green_peas_masala.jpg" },
-  { "id": 89, "cat": "VEG_MAIN_COURSE", "name": "Aalu Jeera", "price": "170 RS", "desc": "Dry potato stir-fry with cumin seeds", "tags": ["Veg"], "img": "img/aalu_jeera.jpg" },
-  { "id": 90, "cat": "VEG_MAIN_COURSE", "name": "Bhendi Masala", "price": "200 RS", "desc": "Okra cooked with onions and spices", "tags": ["Veg"], "img": "img/bhendi_masala.jpg" },
-  { "id": 91, "cat": "VEG_MAIN_COURSE", "name": "Aalu Gobi Masala", "price": "200 RS", "desc": "Potato and cauliflower curry", "tags": ["Veg"], "img": "img/aalu_gobi_masala.jpg" },
-  { "id": 92, "cat": "VEG_MAIN_COURSE", "name": "Aalu Mutter Masala", "price": "200 RS", "desc": "Potatoes and peas in tomato gravy", "tags": ["Veg"], "img": "img/aalu_mutter_masala.jpg" },
-  { "id": 93, "cat": "VEG_MAIN_COURSE", "name": "Gobi Mutter Masala", "price": "200 RS", "desc": "Cauliflower and peas cooked together", "tags": ["Veg"], "img": "img/gobi_mutter_masala.jpg" },
-  { "id": 94, "cat": "VEG_MAIN_COURSE", "name": "Mix Veg Masala", "price": "200 RS", "desc": "Assorted vegetables in spicy masala", "tags": ["Veg"], "img": "img/mix_veg_masala.jpg" },
-  { "id": 95, "cat": "VEG_MAIN_COURSE", "name": "Veg Kolhapuri", "price": "200 RS", "desc": "Spicy mixed vegetable curry Kolhapuri style", "tags": ["Veg"], "img": "img/veg_kolhapuri.jpg" },
-  { "id": 96, "cat": "VEG_MAIN_COURSE", "name": "Veg Kadhai", "price": "210 RS", "desc": "Mixed vegetables cooked in a wok", "tags": ["Veg"], "img": "img/veg_kadhai.jpg" },
-  { "id": 97, "cat": "VEG_MAIN_COURSE", "name": "Veg Handi", "price": "210 RS", "desc": "Mixed vegetables cooked in handi style", "tags": ["Veg"], "img": "img/veg_handi.jpg" },
-  { "id": 98, "cat": "VEG_MAIN_COURSE", "name": "Veg Makhanwala", "price": "200 RS", "desc": "Vegetables in rich creamy butter gravy", "tags": ["Veg"], "img": "img/veg_makhanwala.jpg" },           
-  { "id": 120, "cat": "VEG_MAIN_COURSE", "name": "Olya Kaduchi Usal", "price": "250 RS", "desc": "Fresh cashew nut curry (Seasonal Special)", "tags": ["Veg"], "img": "img/olya_kaju_usal.jpg" },
-
-
-  { "id": 99, "cat": "RICE_NOODLES", "name": "Steam Rice", "price": "90 RS", "desc": "Simple steamed white rice", "tags": ["Veg"], "img": "img/steam_rice.jpg" },
-  { "id": 100, "cat": "RICE_NOODLES", "name": "Jeera Rice", "price": "100 RS", "desc": "Rice tempered with cumin seeds", "tags": ["Veg"], "img": "img/jeera_rice.jpg" },
-  { "id": 101, "cat": "RICE_NOODLES", "name": "Veg Fried Rice", "price": "200 RS", "desc": "Stir-fried rice with vegetables", "tags": ["Veg"], "img": "img/veg_fried_rice.jpg" },
-  { "id": 102, "cat": "RICE_NOODLES", "name": "Veg Schezwan Rice", "price": "210 RS", "desc": "Spicy fried rice tossed in schezwan sauce", "tags": ["Veg"], "img": "img/veg_schezwan_rice.jpg" },
-  { "id": 103, "cat": "RICE_NOODLES", "name": "Veg Biryani", "price": "220 RS", "desc": "Aromatic rice cooked with mixed vegetables and spices", "tags": ["Veg"], "img": "img/veg_biryani.jpg" },
-  { "id": 104, "cat": "RICE_NOODLES", "name": "Dal Khichadi", "price": "200 RS", "desc": "Comforting dish made of rice and lentils", "tags": ["Veg"], "img": "img/dal_khichadi.jpg" },
-  { "id": 105, "cat": "RICE_NOODLES", "name": "Curd Rice", "price": "190 RS", "desc": "Rice mixed with yogurt and tempered with spices", "tags": ["Veg"], "img": "img/curd_rice.jpg" },
-  { "id": 106, "cat": "RICE_NOODLES", "name": "Veg Hakka Noodles", "price": "190 RS", "desc": "Stir-fried noodles with fresh vegetables", "tags": ["Veg"], "img": "img/veg_hakka_noodles.jpg" },
-  { "id": 107, "cat": "RICE_NOODLES", "name": "Veg Schezwan Noodles", "price": "200 RS", "desc": "Spicy noodles cooked in schezwan sauce", "tags": ["Veg"], "img": "img/veg_schezwan_noodles.jpg" },
-  { "id": 108, "cat": "RICE_NOODLES", "name": "Chi. Fried Rice", "price": "220 RS", "desc": "Fried rice with chicken chunks and egg", "tags": ["Non-Veg"], "img": "img/chicken_fried_rice.jpg" },
-  { "id": 109, "cat": "RICE_NOODLES", "name": "Chi. Schezwan Rice", "price": "230 RS", "desc": "Spicy chicken fried rice in schezwan sauce", "tags": ["Non-Veg"], "img": "img/chicken_schezwan_rice.jpg" },
-  { "id": 110, "cat": "RICE_NOODLES", "name": "Chi. Biryani", "price": "270 RS", "desc": "Traditional chicken biryani with aromatic spices", "tags": ["Non-Veg"], "img": "img/chicken_biryani.jpg" },
-  { "id": 111, "cat": "RICE_NOODLES", "name": "Prawns Biryani", "price": "290 RS", "desc": "Flavorful biryani cooked with prawns", "tags": ["Non-Veg"], "img": "img/prawns_biryani.jpg" },
-  { "id": 112, "cat": "RICE_NOODLES", "name": "Egg Biryani", "price": "250 RS", "desc": "Biryani served with boiled eggs", "tags": ["Non-Veg"], "img": "img/egg_biryani.jpg" },
-  { "id": 113, "cat": "RICE_NOODLES", "name": "Chi. Hakka Noodle", "price": "230 RS", "desc": "Classic noodles stir-fried with chicken", "tags": ["Non-Veg"], "img": "img/chicken_hakka_noodle.jpg" },
-  { "id": 114, "cat": "RICE_NOODLES", "name": "Chi. Schezwan Noodles", "price": "240 RS", "desc": "Spicy chicken noodles in schezwan style", "tags": ["Non-Veg"], "img": "img/chicken_schezwan_noodles.jpg" },
-  
-            
-];
+      
+  { "id": 63, "cat": "NON_VEG_SOUP", "name": "Chicken Manchow Soup (Half)", "price": "50 RS", "desc": "Spicy chicken soup with noodles (Half)", "tags": ["Non-Veg"], "img": "img/chicken_manchow_soup.jpeg" },
+  { "id": 64, "cat": "NON_VEG_SOUP", "name": "Chicken Manchow Soup (Full)", "price": "70 RS", "desc": "Spicy chicken soup with noodles (Full)", "tags": ["Non-Veg"], "img": "img/chicken_manchow_soup.jpeg" },
+  { "id": 65, "cat": "NON_VEG_SOUP", "name": "Chicken Hot & Sour Soup (Half)", "price": "50 RS", "desc": "Spicy and tangy chicken soup (Half)", "tags": ["Non-Veg"], "img": "img/chicken_hot_sour_soup.jpeg" },
+  { "id": 66, "cat": "NON_VEG_SOUP", "name": "Chicken Hot & Sour Soup (Full)", "price": "70 RS", "desc": "Spicy and tangy chicken soup (Full)", "tags": ["Non-Veg"], "img": "img/chicken_hot_sour_soup.jpeg" },
+  { "id": 67, "cat": "NON_VEG_SOUP", "name": "Chicken Noodles Soup (Half)", "price": "50 RS", "desc": "Clear soup with chicken and noodles (Half)", "tags": ["Non-Veg"], "img": "img/chicken_noodles_soup.jpeg" },
+  { "id": 68, "cat": "NON_VEG_SOUP", "name": "Chicken Noodles Soup (Full)", "price": "70 RS", "desc": "Clear soup with chicken and noodles (Full)", "tags": ["Non-Veg"], "img": "img/chicken_noodles_soup.jpeg" },
+  { "id": 69, "cat": "NON_VEG_SOUP", "name": "Chicken Chinese Soup (Half)", "price": "50 RS", "desc": "Special chinese chicken soup (Half)", "tags": ["Non-Veg"], "img": "img/chicken_chinese_soup.jpeg" },
+  { "id": 70, "cat": "NON_VEG_SOUP", "name": "Chicken Chinese Soup (Full)", "price": "70 RS", "desc": "Special chinese chicken soup (Full)", "tags": ["Non-Veg"], "img": "img/chicken_chinese_soup.jpeg" },
+  { "id": 71, "cat": "NON_VEG_NOODLES", "name": "Chicken Hakka Noodles (Half)", "price": "90 RS", "desc": "Stir-fried noodles with chicken (Half)", "tags": ["Non-Veg"], "img": "img/chicken_hakka_noodles.jpeg" },
+  { "id": 72, "cat": "NON_VEG_NOODLES", "name": "Chicken Hakka Noodles (Full)", "price": "160 RS", "desc": "Stir-fried noodles with chicken (Full)", "tags": ["Non-Veg"], "img": "img/chicken_hakka_noodles.jpeg" },
+  { "id": 73, "cat": "NON_VEG_NOODLES", "name": "Chicken Triple Noodles (Half)", "price": "120 RS", "desc": "Noodles with gravy and fried noodles (Half)", "tags": ["Non-Veg"], "img": "img/chicken_triple_noodles.jpeg" },
+  { "id": 74, "cat": "NON_VEG_NOODLES", "name": "Chicken Triple Noodles (Full)", "price": "220 RS", "desc": "Noodles with gravy and fried noodles (Full)", "tags": ["Non-Veg"], "img": "img/chicken_triple_noodles.jpeg" },
+  { "id": 75, "cat": "NON_VEG_NOODLES", "name": "Chicken Schezwan Noodles (Half)", "price": "100 RS", "desc": "Spicy chicken noodles in schezwan sauce (Half)", "tags": ["Non-Veg"], "img": "img/chicken_schezwan_noodles.jpeg" },
+  { "id": 76, "cat": "NON_VEG_NOODLES", "name": "Chicken Schezwan Noodles (Full)", "price": "170 RS", "desc": "Spicy chicken noodles in schezwan sauce (Full)", "tags": ["Non-Veg"], "img": "img/chicken_schezwan_noodles.jpeg" },
+  { "id": 77, "cat": "NON_VEG_NOODLES", "name": "Schezwan Noodles (Half)", "price": "100 RS", "desc": "Spicy noodles (Half)", "tags": ["Non-Veg"], "img": "img/schezwan_noodles.jpeg" },
+  { "id": 78, "cat": "NON_VEG_NOODLES", "name": "Schezwan Noodles (Full)", "price": "170 RS", "desc": "Spicy noodles (Full)", "tags": ["Non-Veg"], "img": "img/schezwan_noodles.jpeg" },
+  { "id": 79, "cat": "NON_VEG_NOODLES", "name": "Garlic Noodles (Half)", "price": "100 RS", "desc": "Noodles with garlic flavor (Half)", "tags": ["Non-Veg"], "img": "img/garlic_noodles.jpeg" },
+  { "id": 80, "cat": "NON_VEG_NOODLES", "name": "Garlic Noodles (Full)", "price": "170 RS", "desc": "Noodles with garlic flavor (Full)", "tags": ["Non-Veg"], "img": "img/garlic_noodles.jpeg" },
+  { "id": 81, "cat": "NON_VEG_NOODLES", "name": "Ginger Noodles (Half)", "price": "100 RS", "desc": "Noodles with ginger flavor (Half)", "tags": ["Non-Veg"], "img": "img/ginger_noodles.jpeg" },
+  { "id": 82, "cat": "NON_VEG_NOODLES", "name": "Ginger Noodles (Full)", "price": "170 RS", "desc": "Noodles with ginger flavor (Full)", "tags": ["Non-Veg"], "img": "img/ginger_noodles.jpeg" },
+  { "id": 83, "cat": "NON_VEG_NOODLES", "name": "Hong Kong Noodles (Half)", "price": "100 RS", "desc": "Hong Kong style spicy noodles (Half)", "tags": ["Non-Veg"], "img": "img/hongkong_noodles.jpeg" },
+  { "id": 84, "cat": "NON_VEG_NOODLES", "name": "Hong Kong Noodles (Full)", "price": "170 RS", "desc": "Hong Kong style spicy noodles (Full)", "tags": ["Non-Veg"], "img": "img/hongkong_noodles.jpeg" },
+  { "id": 85, "cat": "NON_VEG_NOODLES", "name": "Singapore Noodles (Half)", "price": "100 RS", "desc": "Singapore style noodles (Half)", "tags": ["Non-Veg"], "img": "img/singapore_noodles.jpeg" },
+  { "id": 86, "cat": "NON_VEG_NOODLES", "name": "Singapore Noodles (Full)", "price": "170 RS", "desc": "Singapore style noodles (Full)", "tags": ["Non-Veg"], "img": "img/singapore_noodles.jpeg" },
+  { "id": 87, "cat": "NON_VEG_RICE", "name": "Chicken Fried Rice (Half)", "price": "90 RS", "desc": "Classic chicken fried rice (Half)", "tags": ["Non-Veg"], "img": "img/chicken_fried_rice.jpeg" },
+  { "id": 88, "cat": "NON_VEG_RICE", "name": "Chicken Fried Rice (Full)", "price": "160 RS", "desc": "Classic chicken fried rice (Full)", "tags": ["Non-Veg"], "img": "img/chicken_fried_rice.jpeg" },
+  { "id": 89, "cat": "NON_VEG_RICE", "name": "Chicken Triple Rice (Half)", "price": "120 RS", "desc": "Rice served with noodles and gravy (Half)", "tags": ["Non-Veg"], "img": "img/chicken_triple_rice.jpeg" },
+  { "id": 90, "cat": "NON_VEG_RICE", "name": "Chicken Triple Rice (Full)", "price": "220 RS", "desc": "Rice served with noodles and gravy (Full)", "tags": ["Non-Veg"], "img": "img/chicken_triple_rice.jpeg" },
+  { "id": 91, "cat": "NON_VEG_RICE", "name": "Chicken Schezwan Rice (Half)", "price": "100 RS", "desc": "Spicy chicken rice (Half)", "tags": ["Non-Veg"], "img": "img/chicken_schezwan_rice.jpeg" },
+  { "id": 92, "cat": "NON_VEG_RICE", "name": "Chicken Schezwan Rice (Full)", "price": "170 RS", "desc": "Spicy chicken rice (Full)", "tags": ["Non-Veg"], "img": "img/chicken_schezwan_rice.jpeg" },
+  { "id": 93, "cat": "NON_VEG_RICE", "name": "Garlic Rice (Half)", "price": "100 RS", "desc": "Rice with garlic flavor (Half)", "tags": ["Non-Veg"], "img": "img/garlic_rice.jpeg" },
+  { "id": 94, "cat": "NON_VEG_RICE", "name": "Garlic Rice (Full)", "price": "170 RS", "desc": "Rice with garlic flavor (Full)", "tags": ["Non-Veg"], "img": "img/garlic_rice.jpeg" },
+  { "id": 95, "cat": "NON_VEG_RICE", "name": "Ginger Rice (Half)", "price": "100 RS", "desc": "Rice with ginger flavor (Half)", "tags": ["Non-Veg"], "img": "img/ginger_rice.jpeg" },
+  { "id": 96, "cat": "NON_VEG_RICE", "name": "Ginger Rice (Full)", "price": "170 RS", "desc": "Rice with ginger flavor (Full)", "tags": ["Non-Veg"], "img": "img/ginger_rice.jpeg" },
+  { "id": 97, "cat": "NON_VEG_RICE", "name": "Hong Kong Rice (Half)", "price": "100 RS", "desc": "Spicy Hong Kong style rice (Half)", "tags": ["Non-Veg"], "img": "img/hongkong_rice.jpeg" },
+  { "id": 98, "cat": "NON_VEG_RICE", "name": "Hong Kong Rice (Full)", "price": "170 RS", "desc": "Spicy Hong Kong style rice (Full)", "tags": ["Non-Veg"], "img": "img/hongkong_rice.jpeg" },
+  { "id": 99, "cat": "NON_VEG_RICE", "name": "Singapore Rice (Half)", "price": "100 RS", "desc": "Singapore style rice (Half)", "tags": ["Non-Veg"], "img": "img/singapore_rice.jpeg" },
+  { "id": 100, "cat": "NON_VEG_RICE", "name": "Singapore Rice (Full)", "price": "170 RS", "desc": "Singapore style rice (Full)", "tags": ["Non-Veg"], "img": "img/singapore_rice.jpeg" },
+  { "id": 101, "cat": "NON_VEG_RICE", "name": "Egg Rice (Half)", "price": "80 RS", "desc": "Fried rice with eggs (Half)", "tags": ["Non-Veg"], "img": "img/egg_rice.jpeg" },
+  { "id": 102, "cat": "NON_VEG_RICE", "name": "Egg Rice (Full)", "price": "140 RS", "desc": "Fried rice with eggs (Full)", "tags": ["Non-Veg"], "img": "img/egg_rice.jpeg" },
+  { "id": 103, "cat": "NON_VEG_STARTER", "name": "Chicken Lolly Pop Dry (Half)", "price": "100 RS", "desc": "Fried chicken lollipops (Half)", "tags": ["Non-Veg"], "img": "img/chicken_lollypop_dry.jpeg" },
+  { "id": 104, "cat": "NON_VEG_STARTER", "name": "Chicken Lolly Pop Dry (Full)", "price": "180 RS", "desc": "Fried chicken lollipops (Full)", "tags": ["Non-Veg"], "img": "img/chicken_lollypop_dry.jpeg" },
+  { "id": 105, "cat": "NON_VEG_STARTER", "name": "Chicken Lolly Pop Gravy (Half)", "price": "120 RS", "desc": "Chicken lollipops in gravy (Half)", "tags": ["Non-Veg"], "img": "img/chicken_lollypop_gravy.jpeg" },
+  { "id": 106, "cat": "NON_VEG_STARTER", "name": "Chicken Lolly Pop Gravy (Full)", "price": "200 RS", "desc": "Chicken lollipops in gravy (Full)", "tags": ["Non-Veg"], "img": "img/chicken_lollypop_gravy.jpeg" },
+  { "id": 107, "cat": "NON_VEG_STARTER", "name": "KS Special (Maharani) (Half)", "price": "140 RS", "desc": "Special chicken starter (Half)", "tags": ["Non-Veg"], "img": "img/ks_special.jpeg" },
+  { "id": 108, "cat": "NON_VEG_STARTER", "name": "KS Special (Maharani) (Full)", "price": "220 RS", "desc": "Special chicken starter (Full)", "tags": ["Non-Veg"], "img": "img/ks_special.jpeg" },
+  { "id": 109, "cat": "NON_VEG_STARTER", "name": "Chicken Chilly Gravy (Half)", "price": "120 RS", "desc": "Spicy chicken with gravy (Half)", "tags": ["Non-Veg"], "img": "img/chicken_chilly_gravy.jpeg" },
+  { "id": 110, "cat": "NON_VEG_STARTER", "name": "Chicken Chilly Gravy (Full)", "price": "210 RS", "desc": "Spicy chicken with gravy (Full)", "tags": ["Non-Veg"], "img": "img/chicken_chilly_gravy.jpeg" },
+  { "id": 111, "cat": "NON_VEG_STARTER", "name": "Chicken Chilly Dry (Half)", "price": "120 RS", "desc": "Dry spicy chicken (Half)", "tags": ["Non-Veg"], "img": "img/chicken_chilly_dry.jpeg" },
+  { "id": 112, "cat": "NON_VEG_STARTER", "name": "Chicken Chilly Dry (Full)", "price": "210 RS", "desc": "Dry spicy chicken (Full)", "tags": ["Non-Veg"], "img": "img/chicken_chilly_dry.jpeg" },
+  { "id": 113, "cat": "NON_VEG_STARTER", "name": "Chicken Manchurian (Half)", "price": "120 RS", "desc": "Chicken manchurian balls (Half)", "tags": ["Non-Veg"], "img": "img/chicken_manchurian.jpeg" },
+  { "id": 114, "cat": "NON_VEG_STARTER", "name": "Chicken Manchurian (Full)", "price": "210 RS", "desc": "Chicken manchurian balls (Full)", "tags": ["Non-Veg"], "img": "img/chicken_manchurian.jpeg" },
+  { "id": 115, "cat": "NON_VEG_STARTER", "name": "Chicken Schezwan (Half)", "price": "120 RS", "desc": "Chicken in schezwan sauce (Half)", "tags": ["Non-Veg"], "img": "img/chicken_schezwan.jpeg" },
+  { "id": 116, "cat": "NON_VEG_STARTER", "name": "Chicken Schezwan (Full)", "price": "210 RS", "desc": "Chicken in schezwan sauce (Full)", "tags": ["Non-Veg"], "img": "img/chicken_schezwan.jpeg" },
+  { "id": 117, "cat": "NON_VEG_STARTER", "name": "Garlic Chicken (Half)", "price": "120 RS", "desc": "Chicken in garlic sauce (Half)", "tags": ["Non-Veg"], "img": "img/garlic_chicken.jpeg" },
+  { "id": 118, "cat": "NON_VEG_STARTER", "name": "Garlic Chicken (Full)", "price": "210 RS", "desc": "Chicken in garlic sauce (Full)", "tags": ["Non-Veg"], "img": "img/garlic_chicken.jpeg" },    
+      ];
         // Cart functionality
         let cart = [];
         let deliveryType = 'restaurant'; // Default to restaurant
@@ -1731,7 +1716,7 @@
 
             // Encode the message for WhatsApp URL
             const encodedMessage = encodeURIComponent(message);
-            const whatsappURL = `https://wa.me/917385821030?text=${encodedMessage}`;
+            const whatsappURL = `https://wa.me/918087270732?text=${encodedMessage}`;
 
             // Open WhatsApp in a new tab
             window.open(whatsappURL, '_blank');
